@@ -7,7 +7,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 
 @Configuration //configuration class (source for BEAN definition)
-@EnableWebMvc
+@EnableWebMvc //@EnableWebMvc is an annotation used to enable Spring Web MVC in a Spring application,
 @ComponentScan(basePackageClasses = WebAppInitializer.class)
 public class WebAppConfig {
 
